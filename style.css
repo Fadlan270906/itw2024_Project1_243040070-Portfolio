@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8dd8e9;
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.nabar ul li{
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #080808;
+    padding: 8px 25px;
+    transition: all .6 ease;
+}
+.navbar ul Myli a:hover{
+    background-color: #ffffff;
+    color: #a8c4c9;
+    box-shadow: #8dd8e9;
+}
+/* Akhir navbar */
+/* Home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: #9fc4cc;
+}
+#home::before{
+    content: "";
+    position:relative;
+    top: 0;
+    right: 0;
+    background: url('img/foto3.jpg') no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: .9;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid #b1d182; */
+    position: absolute;
+    top: 50%;
+    right: 10%;
+}
+.headings{
+    font-family: sans-serif;
+    font-size: 5rem;
+    text-align: center;
+    margin: 10px 0px ;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    background-color: #b4ced2;
+    
+}
+#pict{
+    display: flex;
+    text-align: center;    
+}
+ h1{
+    color: #000000
+}
+#pic img{
+    width: 100%;
+    height: 500px;
+    text-align: justify;
+    
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
+#intro h2{
+    font-size: 3rem;
+    margin-bottom: 25px;
+    color: #000000;
+}
+#intro p{
+    color: #050505;
+}
+/* Akhir homes section */
+/* my picture */
+#mypict{
+    display: flex;
+    flex-direction: column;
+    background-color: #b4ced2;
+    color: #f4f1e9;
+    font-family: sans-serif;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+
+}
+.gallery img{
+    width: 360px;
+    height: 300px;
+    
+}
+/* Akhir my picture */
+
+/* contact me */
+#contact{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: #b4ced2;;
+    color: #f4f1e9;
+    padding: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px;
+}
+.input{
+    padding: 12px;
+    margin: 15px;
+    width: 30%;
+    border: none;
+    outline: none;
+}
+#msg{
+    width: 50%;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    outline: none;
+}
+#send{
+    padding: 10px;
+    width: 20%;
+    margin: 40px;
+    border: none;
+    outline: none;
+}
+#send:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px white ;
+}
