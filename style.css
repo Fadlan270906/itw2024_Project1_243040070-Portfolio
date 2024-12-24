@@ -10,7 +10,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #8dd8e9;
+    background-color: #7aadcc;
     position: sticky;
     top: 0;
 }
@@ -55,6 +55,8 @@ html{
     width: 100%;
     z-index: -1;
     opacity: .9;
+    
+    
 }
 .main{
     display: flex;
@@ -77,17 +79,22 @@ html{
     
 }
 #pict{
-    display: flex;
-    text-align: center;    
+    display:block;
+    align-items: center;
+    justify-items: center;
 }
  h1{
     color: #000000
 }
 #pic img{
-    width: 100%;
-    height: 500px;
-    text-align: justify;
-    
+    display: flex; 
+    justify-content: center;
+     align-items: center; 
+     width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      margin: auto;
+     object-fit: cover;
 }
 #intro{
     display: flex;
@@ -98,10 +105,12 @@ html{
 #intro h2{
     font-size: 3rem;
     margin-bottom: 25px;
+    text-align: center;
     color: #000000;
 }
 #intro p{
-    color: #050505;
+    color: #000000;
+    text-align: center;
 }
 /* Akhir homes section */
 /* my picture */
@@ -122,6 +131,7 @@ html{
 .gallery img{
     width: 360px;
     height: 300px;
+    margin-top: 40px;
     
 }
 /* Akhir my picture */
