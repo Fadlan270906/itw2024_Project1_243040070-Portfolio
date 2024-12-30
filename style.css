@@ -26,7 +26,7 @@ html{
 }
 .navbar ul li a{
     text-decoration: none;
-    color: #080808;
+    color: #000000;
     padding: 8px 25px;
     transition: all .6 ease;
 }
@@ -40,7 +40,7 @@ html{
 #home{
     display: flex;
     flex-direction: column;
-    height: 840px;
+    height: 850px;
     justify-content: center;
     align-items: center;
     color: #9fc4cc;
@@ -95,6 +95,9 @@ html{
       border-radius: 50%;
       margin: auto;
      object-fit: cover;
+     border: 5px solid #eef9fc; 
+     /* Membuat bingkai dengan warna biru */ 
+     background-color: #f0f0f0;
 }
 #intro{
     display: flex;
