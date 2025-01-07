@@ -30,11 +30,8 @@ html{
     padding: 8px 25px;
     transition: all .6 ease;
 }
-.navbar ul Myli a:hover{
-    background-color: #ffffff;
-    color: #a8c4c9;
-    box-shadow: #8dd8e9;
-}
+
+
 /* Akhir navbar */
 /* Home section */
 #home{
@@ -44,6 +41,7 @@ html{
     justify-content: center;
     align-items: center;
     color: #9fc4cc;
+    
 }
 #home::before{
     content: "";
@@ -55,7 +53,7 @@ html{
     width: 100%;
     z-index: -1;
     opacity: .9;
-    
+
     
 }
 .main{
@@ -65,12 +63,13 @@ html{
     position: absolute;
     top: 50%;
     right: 10%;
+
 }
 .headings{
     font-family: sans-serif;
     font-size: 5rem;
     text-align: center;
-    margin: 10px 0px ;
+    
 }
 #about{
     display: flex;
@@ -138,6 +137,41 @@ html{
     
 }
 /* Akhir my picture */
+
+
+/* Skills Section */
+#skills {
+    padding: 50px 0;
+    background-color: #b4ced2;
+    text-align: center;
+    padding: 80px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skill {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 300px;
+}
+
+.skill h2 {
+    margin-bottom: 10px;
+}
+
+.skill p {
+    font-size: 1.2em;
+    color: #333;
+}
+
 
 /* contact me */
 #contact{
